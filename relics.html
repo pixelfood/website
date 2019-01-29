@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="includes/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
+
+    <title>pixelfood-Parrish Relics Portfolio Page</title>
+  </head>
+  <body>
+   <!----------------- TOP SECTION ------------->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand type-logo" href="index.html">pixelfood</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+       <a class="nav-item nav-link" href="about.html">About Me</a>
+      <a class="nav-item nav-link" href="contact.html">Get In Touch</a>
+     <!-------------------------- drop down on larger sizes only ----------------->
+      <div class="dropdown-menu-items">
+      <a class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="dropdowntoggleicon" style="font-family:titleFont;text-transform: none;font-size: 1.4em; color: #f29704; ">Portfolio Pages</span>
+
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="vui_page.html">VUI</a>
+          <a class="dropdown-item" href="sessionm.html">SessionM</a>
+          <a class="dropdown-item" href="strung.html">Strung</a>
+          <a class="dropdown-item" href="relics.html">Parrish Relics</a>
+          <a class="dropdown-item" href="stuff.html">Others</a>
+        </div>
+      </a>
+    </div>
+      <!--------------------------- end dropdown ------------------------------->
+      <!--------------------------- mobile menu -------------------------------->
+      <div class="mobile-menu-items">
+      <a class="nav-item">
+        <div><h1>Portfolio pages</h1></div>
+          <a class="nav-item nav-link" href="vui_page.html">VUI</a>
+          <a class="nav-item nav-link" href="sessionm.html">SessionM</a>
+          <a class="nav-item nav-link" href="strung.html">Strung</a>
+          <a class="nav-item nav-link" href="relics.html">Parrish Relics</a>
+          <a class="nav-item nav-link" href="stuff.html">Others</a>
+      </a>
+    </div>
+      <!-------------------------- end mobile menu ---------------------------->
+    </div>
+  </div>
+</nav>
+<span class="type-logo-small boxshadow">Portfolio of David Parrish-Hill</span>
+
+<div class='wrapper'>
+ <!---------------------------------------------------------------------------->
+<div id="fullimage" class="viewport-fill relics-block">
+
+<div id="img_overlay" class='img-overlay relics'>
+  <img src="images/logos/pr_logo.png">
+</div>
+
+<div class="scroll-down-icon relics-brand-color">SCROLL<i class="fas fa-chevron-down"></i></div>
+
+</div>
+
+<!---------------------------------------------------------------------------->
+
+<div class="row details-page-info">
+  <div class="col-sm-4 info-list">
+    <div class="list-container">
+      <h4>What I did</h4>
+      <ul>
+        <li>Logo Design</li>
+        <li>Web Design</li>
+        <li>Shopify hacking</li>
+        </ul>
+        <h4>Tools I use</h4>
+        <ul>
+        <li>Sketch</li>
+        <li>Photoshop</li>
+        <li>Sublime Text</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-sm-8 main-content">
+    <h4>The Needs</h4>
+    <p>Parrish Relics Jewelry was on Etsy but that type of platform and organization model became problematic for a few business reasons and it was time to move to another platform. After a little research we chose Shopify, and decided it would also be a good time to do a facelift to her brand as well. Her prior logo and look was very medieval oriented and I wanted to create something more accessible while still keeping to an crafted feel.</p>
+    <p>Visit Parrish Relics for some cool jewelry <a href="https://parrishrelics.com"  target="_blank"><i class="fas fa-external-link-square-alt" style="color:#b9c3aa"></i></a></p>
+  </div>
+</div>
+<!---------------------------------------------------------------------------->
+<div class='footer'>
+
+  <div class="container-fluid">   
+        <div class="row footer-bits">
+          <a href='mailTo:pixelfood@me.com'><img class="footer-icons email" src='images/icons/email_icon.svg'></a>
+          <img class="footer-image" src='images/bio_pic.jpg'>
+          <a href='https://www.linkedin.com/in/davidParrishHill'><img class="footer-icons linkedin" src="images/icons/linkedin_icon.svg"></a>
+        </div>
+  </div>
+</div>
+<!----------------------------------------------------------------------------------------->
+</div>
+   
+     <script src="includes/jquery.min.3.3.1"></script>
+    <script src="includes/bootstrap.min.js"></script>
+    <script type="application/javascript"> 
+      window.onload = function(){
+        $("#img_overlay").addClass("vui-fade");
+      }
+
+      window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+   </script>
+
+
+  </body>
+</html>
