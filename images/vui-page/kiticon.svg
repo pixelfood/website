@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <linearGradient id="kiticon-a" x1="0%" x2="99.981%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#005BFA"/>
+      <stop offset="26%" stop-color="#007EF8"/>
+      <stop offset="49%" stop-color="#0095F7"/>
+      <stop offset="63%" stop-color="#009EF6"/>
+      <stop offset="78%" stop-color="#00B9F3"/>
+      <stop offset="100%" stop-color="#00E7EE"/>
+    </linearGradient>
+  </defs>
+  <g fill="none">
+    <circle cx="15.5" cy="15.5" r="15.5" fill="url(#kiticon-a)"/>
+    <polygon fill="#FFF" points="12 12 12 14.154 6 16.527 12 18.9 12 21 3 17.44 3 15.601"/>
+    <polygon fill="#FFF" points="19 10 14.98 23 13 23 16.99 10"/>
+    <polygon fill="#FFF" points="25 16.527 19 14.157 19 12 28 15.608 28 17.445 19 21 19 18.903"/>
+  </g>
+</svg>
