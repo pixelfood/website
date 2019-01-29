@@ -1,0 +1,99 @@
+/*-------------------------------------------------------------------------------------------*/
+.homepage-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    a {
+        display: block;
+    }
+}
+/*--------------------------------------------------------------------------------------------*/
+.portfolio-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin:2%;
+    width: 46%;
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+
+    &.strung-block{
+        background-image: url("../images/homepage_squares/strung.png"),linear-gradient(214deg, #F4A9CB 17%, #9B49E3 100%);
+    }
+    &.relics-block{
+        background-image: url("../images/homepage_squares/relics.png"),linear-gradient(42deg, #0D7885 0%, #49A723 100%);
+    }
+    &.vui-block{
+        background-image: url("../images/homepage_squares/vui-product.png"),linear-gradient( 90deg, #0065F9 0%, #0288F6 27%, #00A5F4 49%, #00C2F1 65%, #00D8F0 80%, #00EAEE 100%);
+    }
+    &.sessionm-block{
+        background-image: url("../images/homepage_squares/cricket.png"),linear-gradient(211deg, #74CEC7 0%, #47BA39 97%);
+    }
+
+
+   @media (max-width: 575.98px) { 
+        //min-height: 600px;
+        width:100%;
+       // margin:8px;
+    }
+ 
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+       // min-height: 600px;
+       // margin:8px;
+        width:100%;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+       // min-height: 600px;
+        margin:2%;
+        width: 46%;
+    }
+    ////////////////////////////////////////////////////////////
+    // NON COLLAPSED ---- Large devices (desktops, 992px and up)
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+           // min-height: 600px;
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+          //  min-height: 600px;
+        }
+}
+
+.portfolio-block:hover{
+    -webkit-box-shadow: 6px 6px 22px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 6px 6px 22px 2px rgba(0,0,0,0.24);
+    box-shadow: 6px 6px 22px 2px rgba(0,0,0,0.24);
+}
+
+.portfolio-block:hover::after{
+    opacity: 1;
+}
+
+.portfolio-block::after {
+    content: 'CLICK FOR MORE INFO';
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height:100%;
+    top:0; left:0;
+    background: rgba(255,255,255,.6);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.portfolio-block:active{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; 
+}

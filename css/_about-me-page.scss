@@ -1,0 +1,30 @@
+.aboutme-blurb{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: auto;
+    padding: 80px 20px;
+
+    & img {
+
+        border-radius: 50%;
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+.left{
+
+}
+
+.right {
+
+
+}
+
+.icon-space{
+    margin: 20px;
+    font-size: 30px;
+}
