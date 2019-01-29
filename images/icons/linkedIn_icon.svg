@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <path id="linkedin_icon-a" d="M6.26875,28 L0.4625,28 L0.4625,9.30625 L6.26875,9.30625 L6.26875,28 Z M3.3625,6.75625 C1.50625,6.75625 0,5.21875 0,3.3625 C0,1.50625 1.50625,0 3.3625,0 C5.21875,0 6.725,1.50625 6.725,3.3625 C6.725,5.21875 5.21875,6.75625 3.3625,6.75625 Z M28,28 L22.20625,28 L22.20625,18.9 C22.20625,16.73125 22.1625,13.95 19.1875,13.95 C16.16875,13.95 15.70625,16.30625 15.70625,18.74375 L15.70625,28 L9.90625,28 L9.90625,9.30625 L15.475,9.30625 L15.475,11.85625 L15.55625,11.85625 C16.33125,10.3875 18.225,8.8375 21.05,8.8375 C26.925,8.8375 28.00625,12.70625 28.00625,17.73125 L28.00625,28 L28,28 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(10 10)">
+    <mask id="linkedin_icon-b" fill="#fff">
+      <use xlink:href="#linkedin_icon-a"/>
+    </mask>
+    <use fill="#000" fill-rule="nonzero" xlink:href="#linkedin_icon-a"/>
+    <g fill="#FFF" mask="url(#linkedin_icon-b)">
+      <rect width="48" height="48" transform="translate(-10 -10)"/>
+    </g>
+  </g>
+</svg>
